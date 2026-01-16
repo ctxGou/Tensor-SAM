@@ -1,0 +1,24 @@
+name: sam
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.10
+  - torchvision==0.20.0
+  - pytorch-cuda=12.4
+  - pytorch==2.5.0
+  - torchaudio
+  - conda-forge::wandb
+  - matplotlib
+  - pillow
+  - progress
+  - scipy
+  - timm
+  - tqdm
+  - anaconda::scikit-learn
+  - scikit-image
+  - ipykernel
+  - tensorly
+  - optuna
+  - h5py
+  - texlive-core

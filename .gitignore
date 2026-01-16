@@ -1,0 +1,42 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# Conda
+*.conda
+conda-bld/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Logs / outputs
+logs/
+outputs/
+checkpoints/
+wandb/
+runs/
+
+# LaTeX build
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Large binaries (add your own)
+*.pt
+*.pth
+*.ckpt
+*.bin
+EOF
